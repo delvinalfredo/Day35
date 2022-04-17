@@ -1,4 +1,4 @@
-.add-todo-container {
+.add-todo-container form {
     background-color: white;
     border-radius: 10px;
     width: 600px;
@@ -8,12 +8,21 @@
     gap: 20px;
 }
 
-.add-todo-title {
-    padding: 10px;
+.add-todo-container form label {
+    text-align: left;
 }
 
-.add-todo-description {
-    padding: 10px;
+.add-todo-container form label input, select, textarea {
+    width: 450px;
+    float: right;
+}
+
+.add-todo-container form label input, select {
+    height: 30px;
+}
+
+.add-todo-container form label textarea {
+    height: 45px;
 }
 
 .add-todo-button {
